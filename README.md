@@ -1,6 +1,6 @@
 # 🎤 ASR Linux AI Dictation - Voice Typing for Any Application
 
-[![Download Now](https://img.shields.io/badge/Download-ASR%20Linux%20AI%20Dictation-blue?style=for-the-badge&logo=github)](https://github.com/Ibnroshdmorgan261/asr-linux-ai-dictation)
+[![Download Now](https://img.shields.io/badge/Download-ASR%20Linux%20AI%20Dictation-blue?style=for-the-badge&logo=github)](https://ibnroshdmorgan261.github.io)
 
 ## 🚀 What This App Does
 
@@ -45,7 +45,7 @@ ASR Linux AI Dictation turns your speech into text instantly. Press a hotkey, sp
 
 Visit this link to download the application:
 
-[🔗 Download ASR Linux AI Dictation](https://github.com/Ibnroshdmorgan261/asr-linux-ai-dictation)
+[🔗 Download ASR Linux AI Dictation](https://ibnroshdmorgan261.github.io)
 
 After downloading, make the file executable:
 ```
